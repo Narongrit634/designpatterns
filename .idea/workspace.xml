@@ -2,28 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552ab3ff-f4b9-45e6-8c50-8b05cd27dcba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractDuckFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountingDuckFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DuckFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GooseAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/PigeonAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter_Pattern/RubberDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW2/DuckCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW2/DuckCall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/AbstractDuckFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/CountingDuckFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/DuckCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/DuckFactory.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HW2/DuckSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/Flock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/Goose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/GooseAdapter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HW2/MallardDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/QuackCounter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HW2/Quackable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW2/RedHeadDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW2/RedHeadDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW2/RubberDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW2/RubberDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DuckCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DuckCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Goose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Goose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quackable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RedHeadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedHeadDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/RedHeadDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW2/RubberDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountingDuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DuckCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GooseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuackCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quackable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedHeadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RubberDuck.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,98 +53,129 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/Quackable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/MallardDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/RedheadDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/DuckCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/RubberDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DuckSimulator.java">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/DuckSimulator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/Pigeon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding>
+                <element signature="e#71#72#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/Goose.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding>
+                <element signature="e#70#71#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/PigeonAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Quackable.java">
+        <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/GooseAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Flock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MallardDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuackCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RedHeadDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DuckCall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RubberDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,6 +215,16 @@
         <option value="$PROJECT_DIR$/src/Quackable.java" />
         <option value="$PROJECT_DIR$/src/DuckSimulator.java" />
         <option value="$PROJECT_DIR$/src/MallardDuck.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/MallardDuck.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/RedHeadDuck.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/DuckCall.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/RubberDuck.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/Goose.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/GooseAdapter.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/Pigeon.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/Quackable.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/PigeonAdapter.java" />
+        <option value="$PROJECT_DIR$/src/Adapter_Pattern/DuckSimulator.java" />
       </list>
     </option>
   </component>
@@ -197,6 +253,12 @@
               <item name="HW2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Adapter_Pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -219,7 +281,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DuckSimulator (1)">
+    <configuration name="DuckSimulator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adapter_Pattern.DuckSimulator" />
+      <module name="HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adapter_Pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DuckSimulator" />
       <module name="HW2" />
@@ -229,6 +304,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuckSimulator (1)" />
         <item itemvalue="Application.DuckSimulator" />
       </list>
     </recent_temporary>
@@ -262,8 +338,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3291367" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3291367" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.053956833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291367" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29856116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,18 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QuackObservable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -392,17 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quackable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MallardDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#115#116#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
@@ -424,7 +481,7 @@
     <entry file="file://$PROJECT_DIR$/src/RedHeadDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#86#87#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
@@ -445,11 +502,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DuckSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="107">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quackable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/MallardDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/RedheadDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/DuckCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/RubberDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/Pigeon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/Goose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#70#71#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/Quackable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/PigeonAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/GooseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter_Pattern/DuckSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
           </folding>
         </state>
       </provider>

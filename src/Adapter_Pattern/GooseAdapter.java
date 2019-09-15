@@ -1,3 +1,5 @@
+package Adapter_Pattern;
+
 public class GooseAdapter implements Quackable {
     Goose goose;
 
@@ -7,10 +9,5 @@ public class GooseAdapter implements Quackable {
     @Override
     public void quack() {
         goose.honk();
-    }
-
-    @Override
-    public void add(Quackable quacker) {
-
     }
 }
