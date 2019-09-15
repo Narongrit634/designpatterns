@@ -12,6 +12,8 @@ public class QuackEcho implements Quackable {
     @Override
     public void quack() {
         duck.quack();
+        System.out.print("Echo: ");
+        duck.quack();
     }
 }
 
