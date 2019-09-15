@@ -1,5 +1,7 @@
-package Adapter_Pattern;
+package Decorator_Pattern;
 
+import Adapter_Pattern.Goose;
+import Adapter_Pattern.GooseAdapter;
 import ducks.DuckCall;
 import ducks.MallardDuck;
 import ducks.RedheadDuck;
@@ -12,21 +14,21 @@ public class DuckSimulator {
         simulator.simulate();
     }
     void simulate() {
-        Quackable mallardDuck = new MallardDuck();
-        Quackable redheadDuck = new RedheadDuck();
-        Quackable duckCall = new DuckCall();
-        Quackable rubberDuck = new RubberDuck();
+        Quackable mallardDuck = new QuackCounter(new QuackEcho(new MallardDuck()));
+        Quackable redheadDuck = new QuackCounter(new QuackEcho(new RedheadDuck()));
+        Quackable duckCall = new QuackCounter(new QuackEcho(new DuckCall()));
+        Quackable rubberDuck = new QuackCounter(new QuackEcho(new RubberDuck()));
         Quackable gooseDuck = new GooseAdapter(new Goose());
-        Quackable pigeonCoo = new PigeonAdapter(new Pigeon());
 
-        System.out.println("\nDuck Simulator");
+        System.out.println("\nDuck Simulator: With Decorator_Pattern");
 
         simulate(mallardDuck);
         simulate(redheadDuck);
         simulate(duckCall);
         simulate(rubberDuck);
         simulate(gooseDuck);
-        simulate(pigeonCoo);
+
+        System.out.println("The ducks quacked " + QuackCounter.getQuacks() + " times");
     }
 
     void simulate(Quackable duck) {

@@ -1,5 +1,7 @@
 package Adapter_Pattern;
 
+import quack.Quackable;
+
 public class GooseAdapter implements Quackable {
     Goose goose;
 

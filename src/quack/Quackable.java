@@ -1,4 +1,4 @@
-package Adapter_Pattern;
+package quack;
 
 public interface Quackable {
     public void quack();
